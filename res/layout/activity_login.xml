@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding_left"
+    android:paddingRight="@dimen/padding_right"
+    android:paddingBottom="@dimen/padding_bottom"
+    android:paddingTop="@dimen/padding_top"
+    tools:context=".Activity_Login"
+    android:background="@color/blanco"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+	    android:id="@+id/introduccion_login"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:text="@string/introduccion_login"    >
+	    <requestFocus />
+	</TextView>
+
+    <EditText 
+	    android:id="@+id/nia"
+	    android:inputType="textEmailAddress"
+	    android:layout_below="@+id/introduccion_login"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nia"
+	    />
+	
+	<EditText 
+	    android:id="@+id/password"
+	    android:inputType="textPassword"
+	    android:layout_below="@+id/nia"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+	    />
+
+	<Button
+	    android:id="@+id/btn_login"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/password"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="38dp"
+	    android:text="@string/login" />
+	
+	<Button
+	    android:id="@+id/btn_registrarse"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignRight="@+id/password"
+	    android:layout_marginBottom="23dp"
+	    android:layout_marginRight="18dp"
+	    android:text="@string/registrarse" />
+
+	
+</RelativeLayout>
+
+
+    

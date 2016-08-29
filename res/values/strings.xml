@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SeTIChat</string>
+    <string name="menu_settings">Opciones</string>
+    <string name="registro">Registro</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="login">Login</string>
+    <string name="nia">NIA</string>
+    <string name="nick">Nick</string>
+    <string name="preference">Preferencias</string>
+    <string name="agenda">Agenda</string>
+    <string name="conversaciones">Conversaciones</string>
+    <string name="introduccion_acercaDe">Esta aplicación ha sido desarrollada por un grupo de alumnos de la uc3m para la asignatura Seguridad en Dispositivos móviles de la UC3M</string>
+	<string name="acercaDe">Acerca de nosotros</string>
+	<string name="introduccion_login">Bienvenido a SeTIChat, introduce nia y contraseña para loguearte.</string>
+	<string name="salir">Salir</string>
+	<string name="actualizar_contactos">Actualizar contactos</string>
+	<string name="generar_claves">Generar claves</string>
+	<string name="actualizar_claves">Actualizar claves</string>
+	<string name="logs">Logs</string>
+	<string name="con_password">Confirm password</string>
+	<string name="password">Password</string>
+	
+</resources>

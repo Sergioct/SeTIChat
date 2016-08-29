@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding_left"
+    android:paddingRight="@dimen/padding_right"
+    android:paddingBottom="@dimen/padding_bottom"
+    android:paddingTop="@dimen/padding_top"
+    tools:context=".Activity_Registro"
+    android:background="@color/blanco"
+    tools:ignore="MergeRootFrame">
+
+
+	<EditText 
+	    android:id="@+id/nick"
+	    android:inputType="text"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nick"
+	    />
+	
+	<EditText 
+	    android:id="@+id/nia"
+	    android:inputType="text"
+	    android:layout_below="@+id/nick"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nia"
+	    />
+	
+	<EditText 
+	    android:id="@+id/password1"
+	    android:inputType="textPassword"
+	    android:layout_below="@+id/nia"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+	    />
+	
+	<EditText 
+	    android:id="@+id/password2"
+	    android:inputType="textPassword"
+	    android:layout_below="@+id/password1"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/con_password"
+	    />
+
+	<Button
+	    android:id="@+id/btn_registro"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/password2"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="38dp"
+	    android:text="@string/registrarse" />
+	
+</RelativeLayout>
+
+
+    

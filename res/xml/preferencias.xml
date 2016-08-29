@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <PreferenceCategory android:title="Privacidad" android:key="Categoria" android:summary="Preferencias del usuario en privacidad" >
+        <CheckBoxPreference 
+            android:title="Cifrar" 
+            android:key="cifrar" 
+            android:summary="Cifrar los mensajes enviados"/>
+    	<CheckBoxPreference 
+    	    android:title="Firmar" 
+    	    android:key="firmar" 
+    	    android:summary="Firmar los mensajes enviados"/>
+    	<EditTextPreference 
+    	    android:title="Autodestrucción"
+    	    android:key="caducidad"
+    	    android:inputType="number"
+    	    android:summary="Días para la autodestrucción de los mensajes"
+    	    android:defaultValue="7"/>
+    </PreferenceCategory>		    
+
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding_left"
+    android:paddingRight="@dimen/padding_right"
+    android:paddingBottom="@dimen/padding_bottom"
+    android:paddingTop="@dimen/padding_top"
+    tools:context=".MainActivitySeTIChat"
+    android:background="@color/blanco"
+    tools:ignore="MergeRootFrame">
+
+
+	
+	
+</RelativeLayout>
+
+
+    

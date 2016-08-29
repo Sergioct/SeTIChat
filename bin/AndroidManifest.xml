@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+ 
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/setichat"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:debuggable="true" >
+        <activity
+            android:name="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228.MainActivitySeTIChat"
+            android:label="@string/app_name" >
+        </activity>
+        <service android:name="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228.service.SeTIChatService"></service>
+        <activity android:name="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228.SeTIChatConversationActivity"></activity>
+        <activity android:name="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228.Activity_Registro"
+            android:label="@string/registro">
+        </activity>
+        
+        <activity android:name="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228.Activity_Load"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>            
+        </activity>
+        <activity android:name="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228.Activity_Login"
+            android:label="@string/app_name">            
+        </activity>
+        <activity android:name="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228.Activity_Acerca_De"
+		    android:label="@string/acercaDe">
+		</activity>
+		<activity android:name="es.uc3m.setichat2014.GR80.NIA100277233.NIA100279893.NIA100276228.Activity_Preference"
+		    android:label="@string/preference">
+		</activity>
+        
+    </application>
+
+</manifest>
